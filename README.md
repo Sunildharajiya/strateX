@@ -2,32 +2,39 @@
   <img src="publicAssets/logo.png" alt="StrateX Logo" width="200" height="200">
 </center>
 
-# Welcome to StrateX !
+# Welcome to StrateX 🚀
 
-StrateX is an open-source CSS styling library designed to help developers create clean, responsive, and consistent UI designs with minimal effort.
+**StrateX** is an open-source CSS styling library designed to help developers build clean, responsive, and consistent user interfaces with minimal effort.
+
+It focuses on simplicity, performance, and customization, making it a solid foundation for modern web projects.
+
+---
 
 ## Getting Started
-StrateX is a CSS library designed to simplify the process of building modern web applications. With a focus on performance and customization, StrateX provides a solid foundation for your web projects.
 
-### Installation
-You can install it by clone (just while it's not on production, after on production this will update)
+StrateX simplifies the process of building modern web applications by providing reusable styles and layout utilities. It is lightweight, easy to understand, and flexible enough to fit any project.
+
+---
+
+## Installation
+
+Currently, StrateX is in development mode and not yet published to a package manager. You can install it by cloning the repository:
 
 ```bash
 git clone git@github.com:Sunildharajiya/strateX.git
 ```
+⚠️ Once StrateX reaches production, installation methods will be updated accordingly.
 
+Folder Structure
 
-### Folder structure
+css
+→ Contains the core CSS framework files of StrateX
 
-css           ====> for main css which is strateX
+documentation
+→ Official guides, usage instructions, and reference materials
 
+publicAssets
+→ Public assets such as images, icons, and other static files
 
-Documentetion ====> instruction book or you can say that Documentetion
-
-
-publicAssets  ====> imges or somthing files which are public 
-
-
-website       ====> codes of a website
-
-
+website
+→ official StrateX website
