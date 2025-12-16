@@ -13,8 +13,6 @@ StrateX is a CSS library designed to simplify the process of building modern web
 You can install StrateX via npm or yarn:
 
 ```bash
-npm install stratex
+git clone git@github.com:Sunildharajiya/strateX.git/css
 
-### strateX 
-welcome to starateX
-
+```
