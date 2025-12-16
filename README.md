@@ -15,3 +15,12 @@ You can install it by clone (just while it's not on production, after on product
 ```bash
 git clone git@github.com:Sunildharajiya/strateX.git
 ```
+
+
+### Folder structure
+css           ====> for main css which is strateX
+Documentetion ====> instruction book or you can say that Documentetion
+publicAssets  ====> imges or somthing files which are public 
+website       ====> codes of a website
+
+
