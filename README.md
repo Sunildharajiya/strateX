@@ -1,5 +1,5 @@
 <center>
-  <img src="logo.png" alt="StrateX Logo" width="200" height="200">
+  <img src="publicAssets/logo.png" alt="StrateX Logo" width="200" height="200">
 </center>
 
 # Welcome to StrateX !
@@ -10,9 +10,8 @@ StrateX is an open-source CSS styling library designed to help developers create
 StrateX is a CSS library designed to simplify the process of building modern web applications. With a focus on performance and customization, StrateX provides a solid foundation for your web projects.
 
 ### Installation
-You can install StrateX via npm or yarn:
+You can install it by clone (just while it's not on production, after on production this will update)
 
 ```bash
-git clone git@github.com:Sunildharajiya/strateX.git/css
-
+git clone git@github.com:Sunildharajiya/strateX.git
 ```
