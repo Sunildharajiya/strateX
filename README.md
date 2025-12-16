@@ -1,1 +1,4 @@
-# strateX
+
+### strateX 
+welcome to starateX
+
