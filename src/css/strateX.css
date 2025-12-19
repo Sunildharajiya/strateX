@@ -1,1 +1,5 @@
-@import url('./components/nav.css')
+/* utilities */
+@import url('./utilities/color.css');
+
+/* componenets */
+@import url('./components/nav.css');

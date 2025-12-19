@@ -1,0 +1,115 @@
+body 
+/* =====================================================
+   strateX Core CSS
+   File: core.css
+   Description: Simple background, text & gradient colors
+   Author: Sunil Dharajiya
+   ===================================================== */
+
+
+/* ================================
+   BACKGROUND COLORS (10)
+   ================================ */
+
+.bg-blue   { background-color: #2563eb; }
+.bg-purple{ background-color: #9333ea; }
+.bg-green { background-color: #16a34a; }
+.bg-red   { background-color: #dc2626; }
+.bg-yellow{ background-color: #f59e0b; }
+.bg-sky   { background-color: #0ea5e9; }
+.bg-dark  { background-color: #0f172a; }
+.bg-light { background-color: #f8fafc; }
+.bg-gray  { background-color: #64748b; }
+.bg-white { background-color: #ffffff; }
+
+
+/* ================================
+   TEXT COLORS (10)
+   ================================ */
+
+.text-blue   { color: #2563eb; }
+.text-purple{ color: #9333ea; }
+.text-green { color: #16a34a; }
+.text-red   { color: #dc2626; }
+.text-yellow{ color: #f59e0b; }
+.text-sky   { color: #0ea5e9; }
+.text-dark  { color: #0f172a; }
+.text-light { color: #f8fafc; }
+.text-gray  { color: #64748b; }
+.text-white { color: #ffffff; }
+
+
+/* ================================
+   GRADIENT BACKGROUNDS (5)
+   ================================ */
+
+.bg-grad-blue {
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+}
+
+.bg-grad-purple {
+  background: linear-gradient(135deg, #9333ea, #6b21a8);
+}
+
+.bg-grad-green {
+  background: linear-gradient(135deg, #16a34a, #166534);
+}
+
+.bg-grad-red {
+  background: linear-gradient(135deg, #dc2626, #7f1d1d);
+}
+
+.bg-grad-sunset {
+  background: linear-gradient(135deg, #f59e0b, #ef4444);
+}
+
+
+/* Blue → Cyan */
+.bg-grad-ocean {
+  background: linear-gradient(135deg, #2563eb, #06b6d4);
+}
+
+/* Purple → Pink */
+.bg-grad-berry {
+  background: linear-gradient(135deg, #7c3aed, #ec4899);
+}
+
+/* Green → Lime */
+.bg-grad-mint {
+  background: linear-gradient(135deg, #16a34a, #84cc16);
+}
+
+/* Orange → Red */
+.bg-grad-fire {
+  background: linear-gradient(135deg, #fb923c, #dc2626);
+}
+
+/* Yellow → Orange */
+.bg-grad-gold {
+  background: linear-gradient(135deg, #facc15, #f97316);
+}
+
+/* Dark → Blue */
+.bg-grad-night {
+  background: linear-gradient(135deg, #020617, #1e3a8a);
+}
+
+/* Teal → Blue */
+.bg-grad-aqua {
+  background: linear-gradient(135deg, #14b8a6, #2563eb);
+}
+
+/* Pink → Purple */
+.bg-grad-rose {
+  background: linear-gradient(135deg, #f43f5e, #9333ea);
+}
+
+/* Gray → Dark */
+.bg-grad-slate {
+  background: linear-gradient(135deg, #94a3b8, #0f172a);
+}
+
+/* Sky → Blue */
+.bg-grad-sky {
+  background: linear-gradient(135deg, #38bdf8, #2563eb);
+}
