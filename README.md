@@ -1,5 +1,5 @@
 <center>
-  <img src="publicAssets/logo.png" alt="StrateX Logo" width="200" height="200">
+  <img src="src/publicAssets/logo.png" alt="StrateX Logo" width="200" height="200">
 </center>
 
 # Welcome to StrateX 🚀
