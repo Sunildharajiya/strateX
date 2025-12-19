@@ -14,8 +14,8 @@ StrateX Navigation Components are modern, flexible, and background-free navigati
 ## REQUIREMENTS
 To use strateX navigation components, include the following files:
 
-1. `strateX.css` - Core styles and utilities. Must be loaded first.
-2. `nav.css` - Navigation component styles.
+1. `css/strateX.css` - Core styles and utilities. Must be loaded first.
+2. `js/main.js` - for logics which buids to make perfact ui
 
 ## AVAILABLE NAVIGATION VARIANTS
 strateX provides three navigation styles. Each variant uses a different class name to avoid conflicts.

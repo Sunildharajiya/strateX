@@ -1,4 +1,5 @@
-const menuBtns = document.querySelectorAll('.sx-menu-btn');
+function Nav() {
+  const menuBtns = document.querySelectorAll('.sx-menu-btn');
     const drawer = document.getElementById('sxDrawer');
     const overlay = document.getElementById('sxOverlay');
     const closeBtn = document.querySelector('.sx-close-btn');
@@ -17,3 +18,7 @@ const menuBtns = document.querySelectorAll('.sx-menu-btn');
       drawer.classList.remove('active');
       overlay.classList.remove('active');
     }
+    
+    }
+    
+  export default Nav
