@@ -1,0 +1,183 @@
+:root {
+  --sx-surface: #ffffff;
+  --sx-overlay: rgba(0, 0, 0, 0.4);
+  --sx-border: #e5e7eb;
+}
+
+/* ===============================
+   GLOBAL
+   =============================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+body {
+  padding: 2rem;
+}
+
+.sx-icon {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+
+/* ===============================
+   NAV STYLE A
+   =============================== */
+.sx-nav-a {
+  height: 64px;
+  padding: 0 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.sx-logo { height: 34px; }
+
+.sx-search-wrap {
+  flex: 1;
+  max-width: 420px;
+  margin: 0 2rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 6px 10px;
+}
+
+.sx-search {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.sx-actions {
+  display: flex;
+  gap: 14px;
+}
+
+/* ===============================
+   NAV STYLE B
+   =============================== */
+.sx-nav-b {
+  height: 60px;
+  padding: 0 1.5rem;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.sx-brand {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.sx-links {
+  display: flex;
+  gap: 28px;
+  list-style: none;
+}
+
+.sx-links li {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+/* ===============================
+   NAV STYLE C
+   =============================== */
+.sx-nav-c {
+  height: 56px;
+  padding: 0 1rem;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.sx-title {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* ===============================
+   SLIDE DRAWER
+   =============================== */.sx-drawer {
+  position: fixed;
+  top: 0;
+  right: -280px;
+  width: 280px;
+  height: 100vh;
+  padding: 1.25rem;
+
+  background: var(--sx-surface);
+  border-left: 1px solid var(--sx-border);
+
+  transition: right 0.3s ease;
+  z-index: 1001;
+}
+
+
+.sx-drawer.active {
+  right: 0;
+}
+
+.sx-drawer-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.sx-drawer-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.sx-drawer-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sx-drawer-links li {
+  cursor: pointer;
+  opacity: 0.85;
+}
+
+/* ===============================
+   OVERLAY
+   =============================== */
+.sx-overlay {
+  position: fixed;
+  inset: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 1000;
+}
+
+.sx-overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+/* ===============================
+   RESPONSIVE
+   =============================== */
+@media (max-width: 640px) {
+  .sx-search-wrap,
+  .sx-links {
+    display: none;
+  }
+}

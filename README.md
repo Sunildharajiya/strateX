@@ -23,7 +23,7 @@ Currently, StrateX is in development mode and not yet published to a package man
 ```bash
 git clone git@github.com:Sunildharajiya/strateX.git
 ```
-⚠️ Once StrateX reaches production, installation methods will be updated accordingly.
+Once StrateX reaches production, installation methods will be updated accordingly.
 
 Folder Structure
 
