@@ -1,3 +1,3 @@
 ## DOCUMENTATION PATHS
 
-- [color.css](../Documentation/color.md)
+- [color.css](../../../Documentation/colors.md)
