@@ -28,7 +28,7 @@ Percentage width classes allow responsive sizing relative to the parent element.
 
 Usage example:
 
-<div class="w-50"></div>
+`<div class="w-50"></div>`
 
 Available percentage width classes:
 
@@ -54,7 +54,7 @@ w-100  →  width: 100%
 
 Usage example:
 
-<div class="wr-32"></div>
+`<div class="wr-32"></div>`
 
 Available REM width classes:
 
@@ -87,7 +87,7 @@ utilities for all sides, horizontal and vertical axes, and individual sides.
 
 Usage example:
 
-<div class="p-6"></div>
+`<div class="p-6"></div>`
 
 Available padding classes:
 
@@ -108,7 +108,7 @@ Vertical padding affects top and bottom sides.
 
 Usage example:
 
-<div class="px-4 py-6"></div>
+`<div class="px-4 py-6"></div>`
 
 Available horizontal padding classes:
 
@@ -125,7 +125,7 @@ Individual padding classes allow precise control per side.
 
 Usage example:
 
-<div class="pt-4 pr-2 pb-6 pl-2"></div>
+`<div class="pt-4 pr-2 pb-6 pl-2"></div>`
 
 Available classes:
 
@@ -147,7 +147,7 @@ automatic, and negative margins.
 
 Usage example:
 
-<div class="m-4"></div>
+`<div class="m-4"></div>`
 
 Available margin classes:
 
@@ -160,7 +160,7 @@ Auto margins are commonly used for centering elements.
 
 Usage example:
 
-<div class="mx-auto"></div>
+`<div class="mx-auto"></div>`
 
 Available auto margin classes:
 
@@ -173,7 +173,7 @@ my-auto
 
 Usage example:
 
-<div class="mt-4 mb-6"></div>
+`<div class="mt-4 mb-6"></div>`
 
 Available classes:
 
@@ -189,7 +189,7 @@ Negative margins allow elements to overlap or shift position.
 
 Usage example:
 
-<div class="-mt-4"></div>
+`<div class="mx-auto"></div>`
 
 Available negative margin classes:
 
@@ -206,7 +206,7 @@ Gap utilities control spacing between child elements in Flexbox and Grid layouts
 
 Usage example:
 
-```html 
+``` 
 <div class="d-flex gap-6"></div>
 ```
 
