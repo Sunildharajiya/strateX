@@ -1,5 +1,6 @@
 /* utilities */
 @import url('./utilities/color.css');
+@import url('./utilities/sizes.css');
 
 /* componenets */
 @import url('./components/nav.css');

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>strateX – All Size Utilities Test</title>
+
+  <!-- Link your strateX sizes CSS -->
+  <link rel="stylesheet" href="../src/css/strateX.css">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f1f5f9;
+      padding: 20px;
+    }
+
+    h1, h2 {
+      margin-bottom: 10px;
+    }
+
+    section {
+      margin-bottom: 40px;
+      padding: 20px;
+      background: #ffffff;
+      border-radius: 8px;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      background: #e5e7eb;
+      padding: 10px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      background: #e5e7eb;
+      padding: 10px;
+    }
+
+    .box {
+      background: #2563eb;
+      color: #ffffff;
+      text-align: center;
+      border-radius: 6px;
+      font-size: 12px;
+    }
+
+    .outline {
+      border: 2px dashed #000;
+      background: #93c5fd;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+
+<h1>strateX – ALL SIZE UTILITIES TEST</h1>
+
+<!-- ===================================== -->
+<!-- WIDTH – PERCENTAGE -->
+<!-- ===================================== -->
+<section>
+  <h2>Width – Percentage</h2>
+  <div class="row gap-4 ">
+    <div class="box w-5 p-2">w-5</div>
+    <div class="box w-10 p-2">w-10</div>
+    <div class="box w-15 p-2">w-15</div>
+    <div class="box w-20 p-2">w-20</div>
+    <div class="box w-25 p-2">w-25</div>
+    <div class="box w-30 p-2">w-30</div>
+    <div class="box w-35 p-2">w-35</div>
+    <div class="box w-40 p-2">w-40</div>
+    <div class="box w-45 p-2">w-45</div>
+    <div class="box w-50 p-2">w-50</div>
+    <div class="box w-60 p-2">w-60</div>
+    <div class="box w-70 p-2">w-70</div>
+    <div class="box w-75 p-2">w-75</div>
+    <div class="box w-80 p-2">w-80</div>
+    <div class="box w-90 p-2">w-90</div>
+    <div class="box w-100 p-2">w-100</div>
+  </div>
+</section>
+
+<!-- ===================================== -->
+<!-- WIDTH – REM -->
+<!-- ===================================== -->
+<section>
+  <h2>Width – REM Based</h2>
+  <div class="row gap-4">
+    <div class="box wr-2 p-2">wr-2</div>
+    <div class="box wr-4 p-2">wr-4</div>
+    <div class="box wr-6 p-2">wr-6</div>
+    <div class="box wr-8 p-2">wr-8</div>
+    <div class="box wr-10 p-2">wr-10</div>
+    <div class="box wr-12 p-2">wr-12</div>
+    <div class="box wr-16 p-2">wr-16</div>
+    <div class="box wr-20 p-2">wr-20</div>
+    <div class="box wr-24 p-2">wr-24</div>
+    <div class="box wr-32 p-2">wr-32</div>
+    <div class="box wr-40 p-2">wr-40</div>
+    <div class="box wr-48 p-2">wr-48</div>
+    <div class="box wr-56 p-2">wr-56</div>
+    <div class="box wr-64 p-2">wr-64</div>
+  </div>
+</section>
+
+<!-- ===================================== -->
+<!-- PADDING -->
+<!-- ===================================== -->
+<section>
+  <h2>Padding – All Sides</h2>
+  <div class="row gap-4">
+    <div class="box p-0 outline">p-0</div>
+    <div class="box p-2 outline">p-2</div>
+    <div class="box p-4 outline">p-4</div>
+    <div class="box p-6 outline">p-6</div>
+    <div class="box p-8 outline">p-8</div>
+    <div class="box p-10 outline">p-10</div>
+    <div class="box p-12 outline">p-12</div>
+    <div class="box p-16 outline">p-16</div>
+  </div>
+</section>
+
+<section>
+  <h2>Padding – X & Y</h2>
+  <div class="row gap-4">
+    <div class="box px-2 py-2 outline">px-2 py-2</div>
+    <div class="box px-4 py-4 outline">px-4 py-4</div>
+    <div class="box px-6 py-6 outline">px-6 py-6</div>
+    <div class="box px-8 py-8 outline">px-8 py-8</div>
+  </div>
+</section>
+
+<!-- ===================================== -->
+<!-- MARGIN -->
+<!-- ===================================== -->
+<section>
+  <h2>Margin – All Sides</h2>
+  <div class="row">
+    <div class="box m-2 p-4">m-2</div>
+    <div class="box m-4 p-4">m-4</div>
+    <div class="box m-6 p-4">m-6</div>
+    <div class="box m-8 p-4">m-8</div>
+  </div>
+</section>
+
+<section>
+  <h2>Margin – Auto</h2>
+  <div class="row">
+    <div class="box w-50 mx-auto p-4">mx-auto</div>
+  </div>
+</section>
+
+<section>
+  <h2>Negative Margin</h2>
+  <div class="row">
+    <div class="box p-4">Normal</div>
+    <div class="box p-4 -ml-4">-ml-4</div>
+    <div class="box p-4 -mt-4">-mt-4</div>
+  </div>
+</section>
+
+<!-- ===================================== -->
+<!-- GAP -->
+<!-- ===================================== -->
+<section>
+  <h2>Gap – Flex</h2>
+  <div class="row gap-0">
+    <div class="box p-2">gap-0</div>
+    <div class="box p-2">gap-0</div>
+  </div>
+
+  <div class="row gap-4">
+    <div class="box p-2">gap-4</div>
+    <div class="box p-2">gap-4</div>
+  </div>
+
+  <div class="row gap-8">
+    <div class="box p-2">gap-8</div>
+    <div class="box p-2">gap-8</div>
+  </div>
+
+  <div class="row gap-16">
+    <div class="box p-2">gap-16</div>
+    <div class="box p-2">gap-16</div>
+  </div>
+</section>
+
+<section>
+  <h2>Gap – Grid</h2>
+  <div class="grid gap-6">
+    <div class="box p-4">1</div>
+    <div class="box p-4">2</div>
+    <div class="box p-4">3</div>
+    <div class="box p-4">4</div>
+  </div>
+</section>
+
+</body>
+</html>
