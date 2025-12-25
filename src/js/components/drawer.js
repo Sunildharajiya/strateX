@@ -1,24 +1,32 @@
-function Nav() {
-  const menuBtns = document.querySelectorAll('.sx-menu-btn');
-    const drawer = document.getElementById('sxDrawer');
-    const overlay = document.getElementById('sxOverlay');
-    const closeBtn = document.querySelector('.sx-close-btn');
+// strateX Drawer Logic
 
-    menuBtns.forEach(btn => {
-      btn.addEventListener('click', () => {
-        drawer.classList.add('active');
-        overlay.classList.add('active');
-      });
+export const initDrawer = (root = document) => {
+  const drawer = root.querySelector(".sx-drawer");
+  const overlay = root.querySelector(".sx-overlay");
+  const menuButtons = root.querySelectorAll(".sx-menu-btn");
+  const closeBtn = root.querySelector(".sx-close-btn");
+
+  if (!drawer) return;
+
+  const OPEN_CLASSES = ["open", "active", "show"];
+
+  const openDrawer = () => {
+    OPEN_CLASSES.forEach(cls => drawer.classList.add(cls));
+    overlay && OPEN_CLASSES.forEach(cls => overlay.classList.add(cls));
+  };
+
+  const closeDrawer = () => {
+    OPEN_CLASSES.forEach(cls => drawer.classList.remove(cls));
+    overlay && OPEN_CLASSES.forEach(cls => overlay.classList.remove(cls));
+  };
+
+  menuButtons.forEach(btn => {
+    btn.addEventListener("click", e => {
+      e.stopPropagation();
+      openDrawer();
     });
+  });
 
-    overlay.addEventListener('click', closeDrawer);
-    closeBtn.addEventListener('click', closeDrawer);
-
-    function closeDrawer() {
-      drawer.classList.remove('active');
-      overlay.classList.remove('active');
-    }
-    
-    }
-    
-  export default Nav
+  closeBtn && closeBtn.addEventListener("click", closeDrawer);
+  overlay && overlay.addEventListener("click", closeDrawer);
+};

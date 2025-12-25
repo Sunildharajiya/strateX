@@ -1,3 +1,7 @@
-import Nav from './components/drawer.js';
+import { initAlerts } from "./components/alerts.js";
+import { initDrawer } from "./components/drawer.js";
 
-Nav()
+document.addEventListener("DOMContentLoaded", () => {
+  initAlerts();
+  initDrawer();
+});

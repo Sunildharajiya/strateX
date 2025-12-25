@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>strateX Alerts – Full Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- strateX Alerts CSS -->
+  <link rel="stylesheet" href="../src/css/strateX.css">
+
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background: #f9fafb;
+      padding: 40px;
+    }
+
+    .demo-wrapper {
+      max-width: 600px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>strateX Alerts – Full Demo</h2>
+
+  <div class="demo-wrapper">
+
+    <!-- Success Alert (Auto Close) -->
+    <div class="sx-alert sx-alert-success" data-timeout="4000">
+      <div class="sx-alert-content">
+        <div class="sx-alert-title">Success</div>
+        <div class="sx-alert-text">
+          Project deployed successfully. This alert closes automatically.
+        </div>
+      </div>
+      <button class="sx-alert-close">&times;</button>
+    </div>
+
+    <!-- Error Alert -->
+    <div class="sx-alert sx-alert-error">
+      <div class="sx-alert-content">
+        <div class="sx-alert-title">Error</div>
+        <div class="sx-alert-text">
+          Deployment failed. Please check your configuration.
+        </div>
+      </div>
+      <button class="sx-alert-close">&times;</button>
+    </div>
+
+    <!-- Warning Alert -->
+    <div class="sx-alert sx-alert-warning">
+      <div class="sx-alert-content">
+        <div class="sx-alert-title">Warning</div>
+        <div class="sx-alert-text">
+          Your session will expire in 2 minutes.
+        </div>
+      </div>
+      <button class="sx-alert-close">&times;</button>
+    </div>
+
+    <!-- Info Alert (Outline Style + Auto Close) -->
+    <div class="sx-alert sx-alert-info sx-alert-outline" data-timeout="6000">
+      <div class="sx-alert-content">
+        <div class="sx-alert-title">Info</div>
+        <div class="sx-alert-text">
+          New strateX update is available.
+        </div>
+      </div>
+      <button class="sx-alert-close">&times;</button>
+    </div>
+
+  </div>
+
+  <!-- strateX Alerts JS -->
+  <script src="../src/js/main.js" type="module"></script>
+
+</body>
+</html>
