@@ -28,19 +28,15 @@ This class defines:
 Use one of the following variant classes:
 ```
 Variant        |   Class
-<hr>
 Success        | .sx-alert-success
-<hr>
 Error          |  .sx-alert-error
-<hr>
 Warning        |  .sx-alert-warning
-<hr>
 Info           |  .sx-alert-info
-<hr>
 ```
 
 example:- 
-```<div class="sx-alert sx-alert-success">
+```
+<div class="sx-alert sx-alert-success">
   ...
 </div>
 ```
@@ -56,4 +52,24 @@ Recommended HTML structure:
 
   <button class="sx-alert-close">&times;</button>
 </div>
+```
+
+### Optional Classes
+```
+Class                   |   Purpose
+
+.sx-alert-content       | Wrapper for text
+.sx-alert-title         | Alert heading
+.sx-alert-text          | Alert message
+.sx-alert-close         | Close button
+.sx-alert-hide          | Used by JS to animate Close
+```
+⚠️ .sx-alert-hide should not be added manually.
+
+# Accessibility Notes (Recommended)
+For better accessibility, add:
+`role="alert"`
+example
+```
+<div class="sx-alert sx-alert-error" role="alert">
 ```
